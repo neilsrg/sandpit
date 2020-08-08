@@ -1,9 +1,16 @@
 package com.example.model;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 
+/**
+ * Account Data Object
+ * To define a static data instead of accessing database (for Demo only)
+ * In reality we need to define a Data Source (database) to store the Accounts data
+ */
+@Component
 @Repository
 public class AccountDAO {
 

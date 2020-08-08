@@ -3,6 +3,9 @@ package com.example.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Transactions List
+ */
 public class Transactions {
 
     private List<Transaction> transactionList;

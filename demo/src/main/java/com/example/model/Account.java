@@ -2,6 +2,9 @@ package com.example.model;
 
 import java.time.LocalDate;
 
+/**
+ * Account Class
+ */
 public class Account {
 
     private int no;

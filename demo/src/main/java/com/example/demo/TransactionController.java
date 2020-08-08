@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * REST Controller to view account transactions based on the Account No provided
+ */
 @RestController
 @RequestMapping(path = "/transactions")
 public class TransactionController {

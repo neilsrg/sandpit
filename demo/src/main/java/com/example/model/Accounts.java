@@ -3,6 +3,9 @@ package com.example.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Account List
+ */
 public class Accounts {
 
     private List<Account> accountList;

@@ -4,6 +4,11 @@ import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 
+/**
+ * Transaction Data Object
+ * To define a static data instead of accessing database (for Demo only)
+ * In reality we need to define a Data Source (database) to store the Transactions data
+ */
 @Repository
 public class TransactionDAO {
 

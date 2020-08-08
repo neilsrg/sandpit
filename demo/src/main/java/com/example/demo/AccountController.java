@@ -6,9 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * REST Controller to view Account List
+ */
 @RestController
 @RequestMapping(path = "/accounts")
 public class AccountController {
+
     private AccountDAO accountDAO = new AccountDAO();
 
     @GetMapping(path = "/", produces = "application/json")
